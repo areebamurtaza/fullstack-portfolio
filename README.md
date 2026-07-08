@@ -43,7 +43,7 @@ This project is a complete static multi-page site built with semantic HTML and c
 
 ## Live link
 
-- Live website: add your deployed URL here if the site is hosted.
+-[ Live website: (https://areeba-fullstack-portfolio.netlify.app/)
 
 ## Screenshots to include
 
