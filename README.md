@@ -49,10 +49,30 @@ This project is a complete static multi-page site built with semantic HTML and c
 
 - Home page screenshot
 ![alt text](home1.png) 
+
 ![alt text](home2.png) 
+
 ![alt text](home3.png) 
+
+- About page screenshot
+![alt text](about1.png)
+![alt text](about2.png)
+![alt text](about3.png)
+![alt text](about4.png)
+
+
 - Projects page screenshot
+![alt text](projects1.png)
+ ![alt text](projects2.png)
+ ![alt text](projects3.png)
+ ![alt text](projects4.png)
+ 
+
 - Filled contact form screenshot
+![alt text](contact1.png)
+![alt text](contact2.png)
+![alt text](contact3.png)
+
 
 
 ## Notes
