@@ -48,12 +48,10 @@ This project is a complete static multi-page site built with semantic HTML and c
 ## Screenshots to include
 
 - Home page screenshot
+![alt text](home1.png)
 - Projects page screenshot
 - Filled contact form screenshot
 
-## Commit history
-
-The assignment asks for at least 5 meaningful commits. Create and push commits locally when preparing the final submission.
 
 ## Notes
 
