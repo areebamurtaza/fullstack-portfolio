@@ -45,74 +45,140 @@
                         <legend>Personal details</legend>
                         <div class="form-grid">
                             <div class="field">
-                                <label for="fullName">Full name</label>
-                                <input id="fullName" name="fullName" type="text" value="Areeba Murtaza">
+                                <label for="fullName">Full name *</label>
+                                <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" required minlength="3" maxlength="50">
                             </div>
                             <div class="field">
-                                <label for="email">Email address</label>
-                                <input id="email" name="email" type="email" value="areeba.murtaza0@gmail.com">
+                                <label for="email">Email address *</label>
+                                <input id="email" name="email" type="email" placeholder="your@email.com" required>
                             </div>
                             <div class="field">
-                                <label for="phone">Phone number</label>
-                                <input id="phone" name="phone" type="tel" value="+92 328 395 0070">
+                                <label for="phone">Phone number *</label>
+                                <input id="phone" name="phone" type="tel" placeholder="+92 300 1234567" required pattern="[0-9+\-\s]{10,}">
                             </div>
                             <div class="field">
-                                <label for="location">Location</label>
-                                <input id="location" name="location" type="text" value="Mandi Bahauddin, Pakistan">
+                                <label for="dob">Date of Birth *</label>
+                                <input id="dob" name="dob" type="date" required>
+                            </div>
+                            <div class="field">
+                                <label>Gender *</label>
+                                <div style="display: flex; gap: 1rem; margin-top: 0.45rem;">
+                                    <label><input type="radio" name="gender" value="Female" required> Female</label>
+                                    <label><input type="radio" name="gender" value="Male" required> Male</label>
+                                    <label><input type="radio" name="gender" value="Other" required> Other</label>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="city">City *</label>
+                                <input id="city" name="city" list="cities" placeholder="Select or type city" required>
+                                <datalist id="cities">
+                                    <option value="Karachi"></option>
+                                    <option value="Lahore"></option>
+                                    <option value="Islamabad"></option>
+                                    <option value="Rawalpindi"></option>
+                                    <option value="Multan"></option>
+                                    <option value="Mandi Bahauddin"></option>
+                                </datalist>
                             </div>
                         </div>
                     </fieldset>
 
                     <fieldset>
-                        <legend>Opportunity details</legend>
+                        <legend>Internship Details</legend>
                         <div class="form-grid">
                             <div class="field">
-                                <label for="interest">I am interested in</label>
-                                <select id="interest" name="interest">
-                                    <option selected>Full stack internship</option>
-                                    <option>Frontend role</option>
-                                    <option>UI development</option>
-                                    <option>Web design support</option>
+                                <label for="track">Internship Track *</label>
+                                <select id="track" name="track" required>
+                                    <option value="">Select a track</option>
+                                    <option>Full Stack Development</option>
+                                    <option>Frontend Development</option>
+                                    <option>UI/UX Design</option>
+                                    <option>Web Design</option>
                                 </select>
                             </div>
                             <div class="field">
-                                <label for="startDate">Available from</label>
-                                <input id="startDate" name="startDate" type="date" value="2026-08-01">
+                                <label for="skillLevel">Skill Level *</label>
+                                <select id="skillLevel" name="skillLevel" required>
+                                    <option value="">Select level</option>
+                                    <option>Beginner</option>
+                                    <option>Intermediate</option>
+                                    <option>Advanced</option>
+                                </select>
                             </div>
                             <div class="field">
-                                <label for="experience">Relevant experience</label>
-                                <textarea id="experience" name="experience">I have built static portfolio pages, responsive layouts, and structured forms with semantic HTML and custom CSS and react.</textarea>
+                                <label for="startDate">Available from *</label>
+                                <input id="startDate" name="startDate" type="date" required>
                             </div>
                             <div class="field">
-                                <label for="goals">What I want to learn</label>
-                                <textarea id="goals" name="goals">I want to improve real-world development workflow, collaborate on team projects, and strengthen front-end and back-end problem solving.</textarea>
+                                <label>Preferred Work Mode *</label>
+                                <div style="display: flex; gap: 1rem; margin-top: 0.45rem;">
+                                    <label><input type="radio" name="workMode" value="Remote" required> Remote</label>
+                                    <label><input type="radio" name="workMode" value="Hybrid" required> Hybrid</label>
+                                    <label><input type="radio" name="workMode" value="On-site" required> On-site</label>
+                                </div>
+                            </div>
+                            <div class="field" style="grid-column: 1 / -1;">
+                                <label for="experience">Relevant experience *</label>
+                                <textarea id="experience" name="experience" placeholder="Describe your relevant experience..." required minlength="20" maxlength="500"></textarea>
+                            </div>
+                            <div class="field" style="grid-column: 1 / -1;">
+                                <label for="goals">What I want to learn *</label>
+                                <textarea id="goals" name="goals" placeholder="What are your learning goals?" required minlength="30" maxlength="500"></textarea>
                             </div>
                         </div>
                     </fieldset>
 
                     <fieldset>
-                        <legend>Working preferences</legend>
-                        <div class="grid-2">
-                            <label class="field">
-                                <span>Preferred mode</span>
-                                <select name="mode">
-                                    <option selected>Hybrid</option>
-                                    <option>Remote</option>
-                                    <option>On-site</option>
-                                </select>
-                            </label>
-                            <label class="field">
-                                <span>Portfolio link</span>
-                                <input type="url" name="portfolio" value="https://github.com/areebamurtaza/fullstack-portfolio" >
+                        <legend>Short Bio</legend>
+                        <div class="form-grid">
+                            <div class="field" style="grid-column: 1 / -1;">
+                                <label for="bio">Short Bio *</label>
+                                <textarea id="bio" name="bio" placeholder="Tell us about yourself..." required minlength="20" maxlength="300"></textarea>
+                            </div>
+                            <div class="field" style="grid-column: 1 / -1;">
+                                <label for="whyJoin">Why do you want to join this internship? *</label>
+                                <textarea id="whyJoin" name="whyJoin" placeholder="Explain your motivation..." required minlength="30" maxlength="500"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Links & Files</legend>
+                        <div class="form-grid">
+                            <div class="field">
+                                <label for="portfolio">Portfolio URL *</label>
+                                <input id="portfolio" name="portfolio" type="url" placeholder="https://example.com/portfolio" required>
+                            </div>
+                            <div class="field">
+                                <label for="github">GitHub URL *</label>
+                                <input id="github" name="github" type="url" placeholder="https://github.com/username" required>
+                            </div>
+                            <div class="field">
+                                <label for="linkedin">LinkedIn URL</label>
+                                <input id="linkedin" name="linkedin" type="url" placeholder="https://linkedin.com/in/username">
+                            </div>
+                            <div class="field">
+                                <label for="cv">Upload CV</label>
+                                <input id="cv" name="cv" type="file" accept=".pdf,.doc,.docx">
+                            </div>
+                        </div>
+                    </fieldset>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Agreement</legend>
+                        <div class="field" style="margin-top: 0.5rem;">
+                            <label>
+                                <input type="checkbox" name="agreement" required> I confirm that the information above is accurate and ready for review. *
                             </label>
                         </div>
-                        <p class="helper">This form is intentionally prefilled so the contact page can be screenshotted as a complete application form.</p>
                     </fieldset>
 
                     <div class="form-actions">
                         <button class="button button-primary" type="submit">Submit Application</button>
-                        <label class="helper"><input type="checkbox" checked> I confirm the information above is ready to review.</label>
+                        <button class="button button-secondary" type="reset">Clear Form</button>
                     </div>
+                    <p class="helper" style="margin-top: 1rem; font-size: 0.9rem;">* Required fields. This form is prefilled with sample data for demonstration.</p>
                 </form>
             </section>
 

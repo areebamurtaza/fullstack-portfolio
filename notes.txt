@@ -1,0 +1,523 @@
+ZYLO TECHNOLOGIES
+Week 1 Day 3
+•
+
+Last updated Today at 11:49 am
+Advanced HTML Revision Website
+
+ClickUp-ready task pack for interns
+
+  Semantic HTML      Multi-page Website      Forms      Tables      GitHub      README    
+
+This task is intentionally practical. Interns revise HTML by building a real static website, not by memorizing tags in isolation.
+
+Main Task Title
+
+Week 1 Day 1 - Advanced HTML Revision Website
+
+Best Website Theme
+
+Personal Developer Portfolio + Internship Profile Website
+
+Minimum Pages
+
+4 pages: index.html, about.html, projects.html, contact.html
+
+Optional Bonus Page
+
+roadmap.html
+
+Styling Allowed
+
+Custom CSS or Tailwind CSS CDN only
+
+Primary Submission
+
+GitHub repo link + screenshots + filled form screenshot + README
+
+Minimum Commits
+
+5 meaningful commits
+
+1. ClickUp Main Task
+Copy the title and description into the main ClickUp task.
+
+Task Title
+Week 1 Day 1 - Advanced HTML Revision Website
+
+Task Description
+You already know basic HTML, so this task is not about learning tags from zero.
+
+
+
+Your goal is to revise advanced HTML structure by building a complete multi-page static website using semantic HTML, maximum useful HTML tags, custom CSS or Tailwind CSS, and a fully filled HTML form.
+
+
+
+You must focus on clean structure, semantic tags, accessibility, page linking, form fields, tables, media, and GitHub submission.
+
+Website Theme Options
+Personal Developer Portfolio Website
+Internship Profile Website
+Mini Software House Website
+Student Learning Portal
+Product Landing Website
+Recommended theme: Personal Developer Portfolio + Internship Profile Website.
+
+2. Required Pages and Folder Structure
+Minimum Required Pages
+File
+
+Purpose
+
+Required Content
+
+index.html
+
+Home page
+
+Header, navbar, hero, short intro, CTA buttons, featured skills, project preview, footer
+
+about.html
+
+About/Profile page
+
+Personal intro, education/background, internship goal, learning timeline, quote, address/contact info
+
+projects.html
+
+Projects/Skills page
+
+Project cards, skills table, learning progress, code snippet, FAQ
+
+contact.html
+
+Contact/Application form page
+
+Fully filled HTML form with sample data and validation attributes
+
+roadmap.html
+
+Optional bonus page
+
+Week 1 to Week 12 roadmap, timeline style layout, current week highlighted
+
+Folder Structure
+advanced-html-revision/
+
+├── index.html
+
+├── about.html
+
+├── projects.html
+
+├── contact.html
+
+├── roadmap.html optional
+
+├── styles.css
+
+├── README.md
+
+└── assets/
+
+    ├── images/
+
+    ├── videos/
+
+    └── icons/
+
+3. Styling Rules
+Option 1 - Custom CSS: Use your own styles.css file.
+Option 2 - Tailwind CSS: Use Tailwind CSS CDN inside the HTML.
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+Strict Rules
+No Bootstrap.
+No React.
+No Next.js.
+No copied full template.
+No drag-and-drop website builders.
+4. Required HTML Tags Checklist
+Use meaningful tags. Random tag stuffing will not be accepted.
+
+Category
+
+Tags
+
+Semantic Layout Tags
+
+html, head, body, header, nav, main, section, article, aside, footer
+
+Text and Content Tags
+
+h1, h2, h3, p, span, strong, em, mark, small, blockquote, q, cite, abbr, time, address, hr, br
+
+List Tags
+
+ul, ol, li, dl, dt, dd
+
+Link and Media Tags
+
+a, img, figure, figcaption, picture optional, video optional, audio optional, iframe optional
+
+Table Tags
+
+table, caption, thead, tbody, tfoot, tr, th, td
+
+Form Tags
+
+form, fieldset, legend, label, input, textarea, select, option, datalist, button
+
+Advanced / Interactive Tags
+
+details, summary, progress, meter, dialog optional
+
+Code Display Tags
+
+pre, code, kbd
+
+5. Page-by-Page Requirements
+Home Page - index.html
+Header and navbar linked to all pages.
+Hero section with intro and call-to-action buttons.
+Featured skills and projects preview.
+Footer.
+Required tags: header, nav, main, section, h1, h2, p, a, img, ul, li, footer.
+About Page - about.html
+Personal introduction, education/background, internship goal, learning timeline.
+Quote or mission statement and contact/address style information.
+Required tags: article, section, blockquote, cite, time, address, dl, dt, dd.
+Example: My goal during this internship is to become confident in frontend structure, GitHub workflow, and Next.js full-stack development.
+Projects Page - projects.html
+Project cards, skills table, learning progress, code snippet section, FAQ.
+Required tags: article, table, caption, thead, tbody, tr, th, td, progress, meter, details, summary, pre, code.
+Example table columns: Skill | Level | Practice Task.
+Contact/Application Form Page - contact.html
+This is important. Create the HTML form and fill it with sample data before taking screenshot.
+Use fieldset and legend to group fields.
+Use label for every input.
+Use placeholder, required, minlength/maxlength, and phone pattern where useful.
+No backend required. The goal is correct HTML form structure and filled screenshot.
+Bonus Page - roadmap.html
+Week 1 to Week 12 roadmap.
+Ordered list and timeline style layout.
+Current week highlighted.
+Required tags: ol, li, time, mark, section, article.
+6. Contact Form Fields
+Field
+
+Input Type
+
+Full Name
+
+text
+
+Email
+
+email
+
+Phone Number
+
+tel
+
+Gender
+
+radio
+
+Date of Birth
+
+date
+
+City
+
+text or datalist
+
+Internship Track
+
+select
+
+Skill Level
+
+select or radio
+
+Preferred Work Mode
+
+radio/select
+
+Portfolio URL
+
+url
+
+GitHub URL
+
+url
+
+LinkedIn URL
+
+url
+
+Short Bio
+
+textarea
+
+Why do you want to join this internship?
+
+textarea
+
+Upload CV field
+
+file
+
+Availability date
+
+date
+
+Agreement checkbox
+
+checkbox
+
+Submit button
+
+submit
+
+Reset button
+
+reset
+
+Filled form screenshot example: Nida, nida@example.com, Next.js Full Stack, Beginner/Intermediate, https://github.com/example.
+
+7. GitHub and README Requirements
+GitHub Requirements
+Create GitHub repo named advanced-html-revision.
+Push all HTML pages.
+Minimum 5 meaningful commits.
+Add README.md.
+All pages must be linked through navbar.
+Repo must be public or accessible to mentor.
+Good Commit Examples
+Create multi-page HTML structure
+
+Add semantic home page sections
+
+Add about page with timeline content
+
+Add projects table and FAQ section
+
+Add contact form with validation fields
+
+Add styling and responsive layout
+
+Update README with screenshots
+
+Bad Commit Examples
+done
+
+final
+
+changes
+
+update
+
+abc
+
+README Template
+# Advanced HTML Revision Website
+
+
+
+## Overview
+
+This project is a multi-page static website created as part of Week 1 HTML revision.
+
+
+
+## Pages
+
+- Home
+
+- About
+
+- Projects
+
+- Contact
+
+- Roadmap optional
+
+
+
+## HTML Concepts Used
+
+- Semantic HTML
+
+- Forms
+
+- Tables
+
+- Lists
+
+- Media
+
+- Accessibility
+
+- Page linking
+
+
+
+## Styling
+
+Mention Custom CSS or Tailwind CSS.
+
+
+
+## Screenshots
+
+Add screenshots of:
+
+- Home page
+
+- Projects page
+
+- Filled contact form
+
+
+
+## What I Revised
+
+Write 5-7 points.
+
+
+
+## Issues Faced
+
+Mention at least 2 issues and how you fixed them.
+
+8. ClickUp Submission Format and Acceptance Criteria
+Submission Format in ClickUp
+GitHub Repo Link:
+
+Live Link if deployed:
+
+Styling Used: Custom CSS / Tailwind CSS
+
+Pages Created:
+
+1.
+
+2.
+
+3.
+
+4.
+
+
+
+HTML Tags Used:
+
+Mention at least 25 tags.
+
+
+
+Screenshots:
+
+- Home page
+
+- Projects page
+
+- Filled form page
+
+
+
+What I revised:
+
+Issues I faced:
+
+What I will improve next:
+
+Acceptance Criteria
+Minimum 4 HTML pages created.
+Navbar links all pages correctly.
+Semantic HTML is used properly.
+At least 25 meaningful HTML tags used.
+Contact form includes required fields and labels.
+Filled form screenshot submitted.
+Table is included.
+List section is included.
+details/summary FAQ is included.
+Image with alt text is included.
+Custom CSS or Tailwind CSS is used.
+Website is readable and visually clean.
+GitHub repo submitted.
+Minimum 5 meaningful commits.
+README completed.
+Bonus Criteria
+Responsive design.
+Roadmap page added.
+Deployed on GitHub Pages or Vercel.
+Uses figure/figcaption.
+Uses progress/meter.
+Uses iframe/video/audio correctly.
+Clean UI with hover states.
+9. Mentor Review Rubric
+Area
+
+Points
+
+Review Focus
+
+HTML structure + semantics
+
+20
+
+Correct use of header, nav, main, sections, articles, footer, hierarchy, and page structure.
+
+Forms + validation
+
+20
+
+Required fields, labels, fieldset/legend, input types, sample data, and filled screenshot.
+
+Tables, lists, media, interactive tags
+
+15
+
+Meaningful usage of table, lists, image alt text, details/summary, progress/meter, code display.
+
+Styling + responsiveness
+
+15
+
+Readable UI, spacing, layout, hover states, mobile behavior, no broken design.
+
+GitHub workflow
+
+15
+
+Repo naming, 5 meaningful commits, public/accessible repo, clean folder structure.
+
+README + screenshots
+
+15
+
+Overview, pages, concepts, styling, screenshots, issues faced, and improvement notes.
+
+10. Intern Announcement Message
+Today’s task is advanced HTML revision.
+
+
+
+You already know HTML basics, so this is not a beginner task. You have to build a complete multi-page static website using semantic HTML, maximum meaningful HTML tags, custom CSS or Tailwind CSS, and a fully filled contact/application form.
+
+
+
+Reading alone will not be accepted. Your output must include GitHub repo, screenshots, filled form screenshot, README, and meaningful commits.
+
+11. Quick Mentor Checking Sheet
+Open GitHub repo and verify folder structure.
+Open index.html and verify navbar links all pages.
+Check about.html for semantic article/section/timeline/blockquote/address.
+Check projects.html for table, progress/meter, FAQ, code snippet.
+Check contact.html form fields, labels, validation, and screenshot proof.
+Check README screenshots and issues faced.
+Check commit history: reject vague commits like done/final/update.
+Check UI quality: reject unreadable spacing, broken images, or copied templates.
